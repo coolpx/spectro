@@ -146,8 +146,8 @@ function generateSettingsContainer(): [SettingsContainer, (playState: PlayState)
             sensitivity: 0.5,
             contrast: 0.5,
             zoom: 4,
-            minFrequency: 10,
-            maxFrequency: 12000,
+            minFrequency: 0,
+            maxFrequency: 24000,
             scale: 'mel' as Scale,
             gradient: 'Heated Metal',
         });
