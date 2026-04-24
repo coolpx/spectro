@@ -379,7 +379,7 @@ function generateSettingsContainer(): [SettingsContainer, (playState: PlayState)
                     nameLabelId="min-freq-slider-label"
                     nameLabel="Min. frequency"
                     min={hzToMel(0)}
-                    max={hzToMel(20000)}
+                    max={hzToMel(48000)}
                     step={1}
                     defaultValue={hzToMel(defaultParameters.minFrequency)}
                     onChange={onMinFreqChange}
@@ -388,7 +388,7 @@ function generateSettingsContainer(): [SettingsContainer, (playState: PlayState)
                     nameLabelId="max-freq-slider-label"
                     nameLabel="Max. frequency"
                     min={hzToMel(0)}
-                    max={hzToMel(20000)}
+                    max={hzToMel(48000)}
                     step={1}
                     defaultValue={hzToMel(defaultParameters.maxFrequency)}
                     onChange={onMaxFreqChange}
